@@ -1,270 +1,268 @@
-## Organisation du papier sur les droits Foncier et Domanial (📜)
+## Organization of the Paper on Land and Domain Rights (📜)
 
+### Introduction: {#intro}
 
-### Introduction : {#intro}
+We aim to outline the structure of the paper governing land and domain legislation ([paper_in_question](Decret-No-87-271.pdf)) in Senegal. The foreword is written by **Moustapha Ngaidé**, Doctor of Public Law, and the preface by **Abdoulaye Dieye**, Lecturer in the Public Law Department, both affiliated with the Faculty of Political and Legal Sciences at Cheikh Anta Diop University in Dakar. The authors are not explicitly named, but the document was completed with contributions from magistrates of the Supreme Court of Senegal.
 
-Nous souhaitons donner les différentes parties du papier sur les textes fonciers et domaniaux ([papier_en_question](Decret-No-87-271.pdf)) régis au Sénégal. L'avant propos est écrit par Moustapha Ngaidé, Docteur en droit public, et la préface par Abdoulaye Dieye, Enseignant au département du droit public, tous deux assignés à la Faculté des sciences politiques et juridiques à l'Université Cheikh Anta Diop de Dakar. Les auteurs du papier ne sont pas mentionnés mais on sait que la réalisation est permis grâce à la contribution de magistrats à la cours supprême du Sénégal.
+The land rights document is divided into **three main sections**, a fourth section on land title expropriation, and appendices. For details on the three main sections, see: [land_rights](https://keurcity.com/domaine-national-et-domaine-public-senegal/). The <i style='color:chocolate'>sections</i> are as follows (excluding preface, foreword, table of contents, and index):
 
-Le document sur le droit foncier est préalablement divisé en trois principales parties, une quatrième sur l'expropriation de titres fonciers et l'annexe. Pour en connaitre plus sur les trois principales parties, se reférer à la page suivante [droit_foncier](https://keurcity.com/domaine-national-et-domaine-public-senegal/). Les <i style='color:chocolate'>parties</i> du document sont les suivantes (en dehors de la préface, de l'avant propos, du sommaire et de la table des matière):
+- <i style='color:chocolate'>National Domain</i>  
+- <i style='color:chocolate'>State Domain</i>  
+- <i style='color:chocolate'>Privately Held Titles</i>  
+- <i style='color:chocolate'>Expropriation for Public Utility</i>  
+- <i style='color:chocolate'>Appendices</i>  
 
-- <i style='color:chocolate'>Le domaine national</i>
-- <i style='color:chocolate'>Le domaine de l'Etat</i>
-- <i style='color:chocolate'>Titres appartenant au particulier</i>
-- <i style='color:chocolate'>Expropriation pour cause d'utilité publique</i>
-- <i style='color:chocolate'>Annexes</i>
+The preface also defines these sections.
 
+---
 
-La préface du document contient également les définitions des différentes parties.
+### Key Term Definitions 🔑: {#definition}
 
-La préface du document contient également les définitions des différentes parties.
+#### Law: {#loi}  
+A **law** is a binding system of rules established by a governing authority, enacted through formal legislative processes. It defines rights, obligations, and prohibitions for individuals and entities.
 
-### Définitions de Quelques Termes Clés 🔑 : {#definition}
+#### Decree: {#decret}  
+A **decree** is a formal executive order with legal force, used to implement laws through detailed regulations or procedures.
+
+#### Ministerial Order: {#arrete}  
+A **ministerial order** is an administrative decision by a minister, addressing specific matters within their jurisdiction (e.g., urban planning, environment). It has narrower scope than laws/decrees.
 
-#### Loi : {#loi}
+---
 
-Une loi est un système de règles et de réglementations établi par une autorité gouvernante qui est contraignante et exécutoire au sein d'une société. Les lois sont promulguées à travers un processus législatif formel et fournissent le cadre de gouvernance et de régulation de divers aspects de la société. Les lois énoncent les droits, les obligations et les interdictions auxquels les individus et les entités doivent se conformer.
+### General Principle 🪶: {#principe}  
+Each section contains **laws** (see [Law](#loi)), which may include **decrees** (see [Decree](#decret)). Decrees can also stand independently. Every decree begins with a **first article** enacting an executive decision, followed by additional articles. Content formats include tables, paragraphs, or lists. We will later address converting <i style='color:chocolate'>article content</i> into database-storable text. Articles are dated according to their parent law/decree.  
 
-#### Décret : {#decret}
+---
 
-Un décret est une décision ou un ordre formel émis par une autorité gouvernementale, généralement le pouvoir exécutif, qui a force de loi. Les décrets sont utilisés pour mettre en œuvre et appliquer les lois existantes, en fournissant des réglementations détaillées, des procédures ou des instructions sur la manière dont les lois doivent être appliquées ou exécutées.
+### Exceptions ❗: {#exception}  
+- An article may lack content and only include <i style='color:chocolate'>a parenthetical citation of a law</i>.  
+- A law may directly contain articles without decrees.  
+---
 
-#### Arrêté Ministériel : {#arrete}
+### Supplements ➕: {#supplement}
 
-Un arrêté ministériel est une décision administrative prise par un ministre ou un membre du gouvernement.
-Il est généralement utilisé pour régler des questions spécifiques relevant du domaine de compétence du ministre concerné.
-Les arrêtés ministériels sont souvent utilisés pour mettre en œuvre des décrets ou des politiques gouvernementales dans des domaines tels que l'urbanisme, l'environnement, la santé, l'éducation, etc.
-Contrairement aux lois et aux décrets, les arrêtés ministériels ont une portée plus limitée et s'appliquent généralement à des situations ou à des entités spécifiques.
+- Laws or decrees may be subdivided into **parts**, **chapters**, **titles**, **sub-titles**, **books**, **sections**, or **sub-sections**, as shown in the document’s table of contents. The following general hierarchy applies to laws/decrees:  
+  ```  
+  ➡️ <i style='color:chocolate'>Part</i> 🛑  
+    ➡️ <i style='color:chocolate'>Book</i> 🛑  
+      ➡️ <i style='color:chocolate'>Title</i> 🛑  
+        ➡️ <i style='color:chocolate'>Sub-Title</i>  
+          ➡️ <i style='color:chocolate'>Chapter</i>  
+            ➡️ <i style='color:chocolate'>Section</i>  
+              ➡️ <i style='color:chocolate'>Sub-Section</i>  
+  ```  
+  The 🛑 emoji marks subdivisions that may not appear in the hierarchy. Sub-titles depend on Titles, Sections on Chapters, and Sub-Sections on Sections.  
 
-### Principe Général 🪶 : {#principe}
-Chaque partie contient des lois (voir la définition d'une loi dans la partie [définitions_loi](#loi)), pouvant comprendre chacune un ou plusieurs décrets (voir la définition d'un décret dans la partie [définitions_décret](#decret)). Les décrets peuvent également être énoncés directement sans faire les objets des sous-parties de lois. Chaque décret contient un article premier promulgant une décision du pouvoir exécutif. Cet article peut être suivi par un ou plusieurs autres articles. La décision peut-être formulé de différentes manières, sous forme de: tableaux, de paragraphes, de listes, voir des formats plus complexes que nous verrons par la suite. Nous verrons également par la suite comment transformer le <i style='color:chocolate'>contenu d'un article</i> (quelque soit son format) en texte que l'on pourra sauvegarder plus tard dans une base de données, suivant un certain nombre de règles. Chaque article également est signé à une date précise qui est aussi celle de la loi ou du décret auquel il est inhérent.
+- <i style='color:red'>For decrees related to rental price scales:  
+  - **Part 1**: Titles subdivided by communes/territories within a specific region.  
+  - **Part 2**: Titles subdivided into alphanumeric categories, ending with cross-reference tables showing rates for categories/regions.  
+  Two decrees fall under this framework: the first governs occupancy of state-owned immovable property, and the second applies to land (vacant or developed).</i>  
 
-### Quelques exceptions ❗: {#exception}
+- Articles are <i style='color:chocolate'>sequentially numbered</i> within laws/decrees and may <i style='color:chocolate'>reference other articles, laws, or decrees</i>.  
+- Articles may include <i style='color:chocolate'>titles</i>, similar to subdivisions.  
+- Articles may be prefixed with **L.** or **R.**:  
+  - **L.**: In French legislative context, "L" in "Article L. 1" refers to the **legislative section**.  
+    - <i style='color:chocolate'>"L"</i> denotes provisions established by the legislature.  
+    - The number after "L" (e.g., "1" in "Article L. 1") indicates the <i style='color:chocolate'>specific article number</i> within the law/decree.  
+    - Example: "Article L. 1" is the first article in a legislative section, followed sequentially by L. 2, L. 3, etc.  
+  - **R.**: In French regulatory context, "R" in "Article R. 1" refers to the **regulatory section**.  
+    - <i style='color:chocolate'>"R"</i> denotes provisions established by governmental/administrative authorities.  
+    - The number after "R" (e.g., "1" in "Article R. 1") indicates the <i style='color:chocolate'>specific article number</i> within the regulatory section.  
+    - Example: "Article R. 1" is the first article in a regulatory section, followed by R. 2, R. 3, etc.  
 
-- Un article peut ne pas avoir de contenus mais juste <i style='color:chocolate'>la citation d'une loi, mise entre parenthèses</i>.
+- Decrees may include <i style='color:chocolate'>annexes referenced in their articles</i>.  
+- Laws/decrees may be <i style='color:chocolate'>excerpts</i> from original versions, marked as "(Extrait)".  
+- Appendices contain:  
+  - The document’s sole <i style='color:chocolate'>ministerial order</i> (see [Ministerial Order](#arrete)).  
+  - An excerpt from the <i style='color:chocolate'>1789 Declaration of the Rights of Man and of the Citizen</i> ([definition](https://gallica.bnf.fr/essentiels/repere/declaration-droits-homme-1789), [articles](https://www.legifrance.gouv.fr/contenu/menu/droit-national-en-vigueur/constitution/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789)).  
+### <i style='color:chocolate'>Numbering of Laws and Decrees</i> 🔢 :{#numerotation}
 
-- Une loi peut ne pas contenir de décrets mais directement des articles.
+- Laws and decrees are commonly numbered for several reasons:
 
-### Suppléments ➕: {#supplement}
+    1. **Identification and Referencing**: Numbers allow unique identification of each law/decree, facilitating precise referencing in legal documents, media, or other contexts.  
 
-- Les lois ou les décrets peuvent être subdivisés en parties, chapitres, titres, sous-titres, livres, sections ou sous-sections comme le démontre la table des matières à la fin du document. L'hierarchie générale suivante peut-être utilisée pour une loi ou un décret:
-    - ➡️ <i style='color:chocolate'>Partie</i> 🛑 
-        - ➡️ <i style='color:chocolate'>Livre</i> 🛑
-            - ➡️ <i style='color:chocolate'>Titre</i> 🛑
-                - ➡️ <i style='color:chocolate'>Sous-Titre </i>
-                    - ➡️ <i style='color:chocolate'>Chapitre </i>
-                        - ➡️ <i style='color:chocolate'>Section </i>
-                            - ➡️ <i style='color:chocolate'>Sous-Section </i>
+    2. **Organization and Classification**: Numbering enables systematic organization, simplifying navigation and comprehension of legal texts, especially when consulting multiple related articles/decrees.  
 
-    Un emoji 🛑 est mis devant les subdivisions qui peuvent ne pas intervenir dans l'hierarchie. Cependant les sous-titres dépendent des Titres, les Sections dépendent des Chapitres, et les Sous-Sections des Sections.
-     <!-- et les Sous division sans intitulé des Sections. -->
-- <i style='color:red'>Pour le/les décrets portant sur le barème des prix des loyers nous avons deux parties, chacune comporte des titres comme subdivisions. Pour la première partie, chaque titre comporte d'autres subdivions portant sur les différentes communes ou territoires d'une région spécifique. Pour la deuxième partie, chaque titre est subdivisé en categories avec une numérotation alphabétique ou numérique suivant le titre. A la fin de la deuxième partie est présenté un tableau croisé pour chaque titre indiquant les barèmes appliqués aux catégories / régions.</i> Nous avons deux décrets dans ce cas de figure: le premier porte sur l'occupation du domaine privé immobilier de l'Etat et le deuxième porte sur les terrains (nus ou bâtis).
-- Les articles sont <i style='color:chocolate'>numérotés</i> de manière ordonnée au sein d'une loi ou d'un décret et peuvent faire <i style='color:chocolate'>références à d'autres articles, lois ou décrets</i>.
-- Nous pouvons avoir des <i style='color:chocolate'>titres pour les articles</i> comme c'est le cas pour les subdivions.
-- Un article peut présenter avant son numéro L. ou R. ayant pour définitions les suivantes:
-    - L. : Dans le contexte législatif français, le "L" dans "article L. 1" fait référence à la section de la législation dans laquelle se trouve cet article. Plus précisément :
+    3. **Tracking History and Amendments**: Numbers help trace the legislative history of laws/decrees and monitor changes over time, making it easier to identify previous versions and legal evolution.  
 
-        - <i style='color:chocolate'>"L"</i> désigne une section législative. La section législative est généralement réservée aux dispositions établies par le législateur lui-même, par opposition aux dispositions réglementaires qui sont établies par le gouvernement ou les autorités administratives.
+    4. **Clarity and Uniformity**: A consistent numbering system enhances clarity and reduces ambiguity in legal interpretation.  
 
-        - Le numéro qui suit le "L" (par exemple, "1" dans "article L. 1") indique <i style='color:chocolate'>le numéro spécifique de l'article</i> au sein d'un décret ou d'une loi donnée.
+---
 
-        Ainsi, "article L. 1" fait référence au premier article d'une section législative. Les articles qui suivent dans cette section sont généralement numérotés séquentiellement (L. 2, L. 3, etc.). Cette numérotation aide à organiser et à référencer les différentes dispositions législatives.
-    - R. : Dans le contexte législatif français, le "R" dans "article R. 1" fait référence à une section réglementaire Voici ce que signifie le "R" :
+### Senegal’s Numbering System (Aligned with France)  
 
-        - <i style='color:chocolate'>"R"</i> désigne une section réglementaire. Contrairement à la section législative (représentée par "L"), la section réglementaire contient les dispositions qui sont établies par le gouvernement ou les autorités administratives, plutôt que par le législateur lui-même.
+1. **Laws**:  
+   - Identified by a unique number assigned upon parliamentary adoption.  
+   - Format: **Year of adoption** + **sequential number**.  
+     - Example: *Law No. 2019-1234* = 1234th law adopted in 2019.  
 
-        - Le numéro qui suit le "R" (par exemple, "1" dans "article R. 1") indique <i style='color:chocolate'>le numéro spécifique de l'article</i> au sein de cette section réglementaire.
+2. **Decrees**:  
+   - Identified by a unique number assigned upon governmental promulgation.  
+   - Format: **Year of promulgation** + **sequential number**.  
+     - Example: *Decree No. 2020-567* = 567th decree promulgated in 2020.  
 
-        Ainsi, "article R. 1" fait référence au premier article de la section réglementaire. Les articles qui suivent dans cette section sont généralement numérotés séquentiellement (R. 2, R. 3, etc.). Cette numérotation aide à organiser et à référencer les différentes dispositions réglementaires.
+This system ensures precise identification, streamlined referencing, and efficient application of legislative/regulatory texts in Senegal’s legal framework.  
+### Attributes of an Article 🔶: {#attributs}
 
-- Un décret peut contenir <i style='color:chocolate'>des annexes qui sont cités au niveau des articles que ce décret contient</i>.
+Terms highlighted in <i style='color:chocolate'>chocolate</i> define key concepts for a land law article. Analyzing these terms reveals the following attributes:
 
-- Une loi ou un décret peuvent être des extraits de leurs versions originales. Autrement dit, ce ne sont pas tous les articles inhérents à la version originale de la loi ou du décret qui sont cités. Les extraits sont identifiés par le mot "Extrait" mis entre parenthèses.
+| Attribute Names                               | Type                           | Value Spaces (¥), Regex (£), or Date Format (€) | Nullable (True/False)                   |
+| :--------------------------------------------:|:------------------------------:|:------------------------------------------------:|:----------------------------------------|
+| Scope of Application                          | Categorical                    | {national, state, private, expropriation} (¥)    | True                                    |
+| Law Number                                    | String                         | `\d{4}-\d+` (£)                                  | True                                    |
+| Decree Number                                 | String                         | `\d{4}-\d+` (£)                                  | True                                    |
+| Ministerial Order Number                      | String                         | `\d{4}[A-Z\-]*` (£)                              | True                                    |
+| Declaration of Human and Citizen Rights       | Boolean                        | {True, False} (¥)                                | False                                   |
+| Article Number                                | Integer                        | `\d+` (£)                                        | False                                   |
+| Article Title                                 | String                         | `[A-Za-z\d]*` (£)                                | True                                    |
+| Effective Date                                | Date                           | `YYYY-MM-DD` (€)                                 | True                                    |
+| Subdivision Name (Book)                       | String                         | `[A-Za-z\d]*` (£)                                | True                                    |
+| Subdivision Name (Title)                      | String                         | `[A-Za-z\d]*` (£)                                | True                                    |
+| Subdivision Name (Sub-Title)                  | String                         | `[A-Za-z\d]*` (£)                                | True                                    |
+| Subdivision Name (Chapter)                    | String                         | `[A-Za-z\d]*` (£)                                | True                                    |
+| Subdivision Name (Section)                    | String                         | `[A-Za-z\d]*` (£)                                | True                                    |
+| Subdivision Name (Sub-Section)                | String                         | `[A-Za-z\d]*` (£)                                | True                                    |
+| Article Type                                  | Categorical                    | {Regulatory, Legislative} (¥)                    | True                                    |
+| Article Content                               | String                         | `.*` (£)                                         | False                                   |
 
-- L'annexe contient, en plus d'un certain nombre de lois et de décrets, le seul <i style='color:chocolate'>arrêté ministériel</i> (voir la définition d'un arrêté dans la partie [définitions_arrêté_ministériel](#arrete)) du document, et également un extrait de <i style='color:chocolate'>la déclaration universelle sur les droits de l'homme et du citoyen de 1789</i> (voir les liens suivants pour en comprendre plus [définition_droit_universelle_sur_les_droits_de_l'homme_et_du_citoyen_1789](https://gallica.bnf.fr/essentiels/repere/declaration-droits-homme-1789#:~:text=et%20du%20citoyen-,La%20D%C3%A9claration%20des%20droits%20de%20l%27homme%20et%20du%20citoyen,R%C3%A9publique%20et%20de%20la%20d%C3%A9mocratie.), [articles](https://www.legifrance.gouv.fr/contenu/menu/droit-national-en-vigueur/constitution/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789)).
 
 
-### <i style='color:chocolate'>Numérotation des lois et décrets</i> 🔢 :{#numerotation}
+### Rental Price Rate Schedules {#rate-schedules}
 
-- Il est courant de numéroter les lois et décrets pour plusieurs raisons :
+Article 1 of Decree No. 2010-400 on rental price schedules for <i style='color:chocolate'>state-owned real estate properties</i> and Decree No. 2010-439 on rental prices for <i style='color:chocolate'>land (vacant or built)</i> are structured differently from other articles. Both decrees share a similar framework.
 
-    1. **Identification et Référencement**: Les numéros permettent d'identifier de manière unique chaque loi ou décret, ce qui facilite leur référencement et leur recherche. Lorsque vous citez une loi ou un décret dans un document juridique, un article de presse, ou tout autre contexte, le numéro permet de l'identifier de manière précise.
+#### Structure of Both Decrees 🏘️ {#rate-config}
 
-    2. **Organisation et Classification**: La numérotation des lois et décrets permet de les organiser et de les classer de manière ordonnée. Cela facilite la navigation à travers les textes juridiques et leur compréhension, notamment lorsque vous devez consulter plusieurs articles ou décrets sur un même sujet.
+Each decree contains two parts:
 
-    3. **Historique et Suivi des Modifications**: En attribuant des numéros à chaque loi ou décret, il devient plus facile de suivre leur historique et les modifications qui leur sont apportées au fil du temps. Les numéros permettent de repérer les versions antérieures d'une loi ou d'un décret et de comprendre son évolution législative.
+1. **Part 1**: Focuses on <i style='color:chocolate'>the square meter value of vacant land</i>, subdivided into titles assigned to <i style='color:chocolate'>specific regions of Senegal</i>. For each region, there may be multiple <i style='color:chocolate'>localities</i> and <i style='color:chocolate'>land types</i>, followed by rate schedules for zones within these localities and land types.
 
-    4. **Clarté et Uniformité**: La numérotation des lois et décrets contribue à la clarté et à l'uniformité dans le système juridique. En suivant un système de numérotation cohérent, les utilisateurs peuvent mieux comprendre et interpréter les textes juridiques, ce qui réduit les risques d'ambiguïté ou de confusion.
+2. **Part 2**: Addresses <i style='color:chocolate'>the square meter value of built land</i>, divided into:
+   - <i style='color:chocolate'>Premises categorization</i>: Defines categories based on <i style='color:chocolate'>housing type</i>.
+   - <i style='color:chocolate'>Square meter price schedule</i>: A cross-tabulation table with rows for housing type categories and columns for regions.
 
-- Au Sénégal, comme en France, les numéros de lois et de décrets suivent un système organisé pour permettre une identification claire et précise des textes législatifs et réglementaires. Voici comment ces numéros sont généralement organisés :
+#### Configuration of Article 1 on Rental Prices 🔷 {#rate-parameters}
 
-    1. **Lois** :
-    - Les lois sont généralement identifiées par un numéro unique attribué lors de leur adoption par le Parlement.
-    - Le numéro d'une loi comprend souvent deux parties : le numéro de l'année d'adoption de la loi suivi d'un numéro séquentiel attribué à chaque loi adoptée au cours de cette année.
-    - Par exemple, la loi n° 2019-1234 serait la 1234ème loi adoptée en 2019.
+Article 1 must be adapted differently depending on the text provided. For example:
+- In Part 1, the original text of Article 1 must accompany rate schedules for zones in localities/land types.
+- Definitions of categories and cross-tabulation tables require similar adaptations.
 
-    2. **Décrets** :
-    - Les décrets sont également identifiés par un numéro unique attribué lors de leur promulgation par le gouvernement.
-    - Le numéro d'un décret suit généralement un système similaire à celui des lois, avec un numéro d'année suivi d'un numéro séquentiel attribué à chaque décret promulgué au cours de cette année.
-    - Par exemple, le décret n° 2020-567 serait le 567ème décret promulgué en 2020.
+Additional attributes (based on terms highlighted in <i style='color:chocolate'>chocolate</i> in the [Structure of Both Decrees](#rate-config) subsection) beyond the general [Article Attributes](#attributs) include:
 
-    Ces numéros permettent d'identifier de manière précise chaque loi et chaque décret, facilitant ainsi leur référencement, leur consultation et leur utilisation dans le cadre de l'application du droit. Ils constituent un moyen efficace de repérer et d'identifier rapidement les textes législatifs et réglementaires dans le système juridique Sénégalais.
+| Attribute Names                               | Type                           | Value Spaces (¥), Regex (£), or Date Format (€) | Nullable (True/False)                   |
+| :--------------------------------------------:|:------------------------------:|:------------------------------------------------:|:----------------------------------------|
+| Land Type                                     | Categorical                    | {vacant, built} (¥)                              | True                                    |
+| Region                                        | String                         | `[A-Za-z\d]+` (£)                                | True                                    |
+| City                                          | String                         | `[A-Za-z\d]+` (£)                                | True                                    |
+| Locality/Localities                           | String                         | `[A-Za-z\d]+` (£)                                | True                                    |
+| Category                                      | String                         | `[A-Z]+` \| `[\d]+` (£)                          | True                                    |
+| Housing Type                                  | Categorical                    | {Collective Housing, Single-Family Homes, Developed Courtyards, Fences} (¥) | True |
+| Rental Price Article                          | Boolean                        | {True, False} (¥)                                | False                                   |
 
-### Attributs d'un Article 🔶: {#attributs}
 
-Les mots mis en chocolat désignent les termes définissant un article sur le droit foncier. L'analyse de ces termes nous fournis les attributs suivants pour un article:
+---
 
-| Noms des Attributs                              | Type                           | Espaces de Valeurs (¥), Expression Régulière (£) ou Format de date (€) | Peut être nulle (Vrai ou Faux)                    |
-| :----------------------------------------------:|:------------------------------:|:---------------------------------------------------:|:-----------------------------------------|
-| Domaine d'application                           | Catégorielle                   | {national, etat, particulier, expropriation} (¥) | Vrai                                      |
-| Numéro de la loi                                | Chaîne de caractères           | ([\d]{4}-[\d]+)  (£)                                     | Vrai                                      |
-| Numéro du décret                                | Chaîne de caractères           | [\d]{4}-[\d]+  (£)                                     | Vrai                                      |
-| Numéro de l'arrêté ministériel                  | Chaîne de caractères           | [\d]{4}[A-Z\-]*     (£)                                  | Vrai                                      |
-| Déclaration des droits de l'homme et du citoyen | Booléen                        | {Vrai, Faux}  (¥)                                    | Faux                                      |
-| Numéro de l'article                             | Entier           | [\d]+   (£)                                    | Faux                                      |
-| Titre de l'article                              | Chaîne de caractères           | [A-Za-z\d]*     (£)                                    | Vrai                                      |
-| Date d'application                              | Date                           | YYYY-MM-DD       (€)                                   | Vrai                                      |
-| Nom de la subdivision Livre                      | Chaîne de caractères           | [A-Za-z\d]*   (£)                                      | Vrai                                      |
-| Nom de la subdivision Titre                                       | Chaîne de caractères           | [A-Za-z\d]*        (£)                                 | Vrai                                      |
-| Nom de la subdivision Sous-Titre                                  | Chaîne de caractères           | [A-Za-z\d]*                (£)                         | Vrai                                      |
-| Nom de la subdivision Chapitre                                    | Chaîne de caractères           | [A-Za-z\d]*             (£)                            | Vrai                                      |
-| Nom de la subdivision Section                                     | Chaîne de caractères           | [A-Za-z\d]*                  (£)                       | Vrai                                      |
-| Nom de la subdivision Sous-Section                                | Chaîne de caractères           | [A-Za-z\d]*                  (£)                       | Vrai                                      |
-| Type d'article              | Catégorielle                   | {Réglementaire, Législative}  (¥)                   | Vrai                                      |
-| Contenu de l'article          | Chaîne de caractères                      | .*        (£)            |Faux|
+### Paper Preparation for Extraction 🪵  
 
+The land and domain-related texts span 527 pages. Given the significant volume of documents and the varied presentation of information as one progresses through the text, we must conduct a thorough preliminary analysis (or processing) of the different sections before proceeding to the step of extracting articles and their corresponding attributes.  
 
+We will first perform the following preliminary steps:  
 
+- **Split the document** (based on the General Summary section) **into 8 parts** (manually, into separate PDF files):  
+  - PREFACE  
+  - FOREWORD  
+  - Summary  
+  - Part One: National Domain  
+  - Part Two: State Domain  
+  - Part Three: Private Domain  
+  - Part Four: Expropriation for Public Utility  
+  - Appendices  
+  - TABLE OF CONTENTS  
 
+- **Divide the Summary section into**:  
+  - Summary of Part One: National Domain  
+  - Summary of Part Two: State Domain  
+  - Summary of Part Three: Private Domain  
+  - Summary of Part Four: Expropriation for Public Utility  
+  - Summary of Appendices  
 
-### Barêmes sur les prix des loyers {#baremes}
-
-L'article premier du décret numéro 2010-400 portant les barèmes des prix des loyers autour de <i style='color:chocolate'>l'occupation du domaine privé immobilier de l'Etat</i> et celui du décret numéro 2010-439 portant les barèmes des prix des loyers sur <i style='color:chocolate'>les terrains (nus ou bâtis)</i> sont organisés d'une manière différente par rapport aux autres articles. Les deux décrets offrent une configuration similaire.
-
-#### Configuration des deux décrets 🏘️ {#configuration-bareme}
-
-Chacun d'entre eux contient deux parties:
-
-- La première partie porte sur <i style='color:chocolate'>la valeur du mètre carré du terrain nu</i> et est subdivisée en plusieurs titres dont chacun est attribué à <i style='color:chocolate'>une région spécifique du Sénégal</i>. Pour une région donnée nous pouvons avoir plusieurs <i style='color:chocolate'>localités</i> et <i style='color:chocolate'>terrains</i>. Enfin, un texte sur les barèmes attribuées aux zones de ces localités et terrains sont fournis. 
-
-- La deuxième partie porte sur <i style='color:chocolate'>la valeur du mètre carré du terrain bati</i> et est subdivisée entre <i style='color:chocolate'>la catégorisation des locaux</i> et <i style='color:chocolate'>le barème du prix du mètre carré</i>. Pour la catégorisation des locaux on a plusieurs <i style='color:chocolate'>catégories</i> par <i style='color:chocolate'>type d'habitation</i> chacun ayant comme contenue sa définition. Pour le barème du prix du mètre carré nous avons un tableau croisé des barèmes pour chaque type d'habitation ayant pour lignes, les catégories du type d'habitation en question, et pour colonnes, les différentes régions.
-
-#### Paramétrage de l'article premier sur les barèmes des prix des loyers 🔷 {#parametrage-bareme}
-
-L'article premier devra être réécris de différente manière suivant les différents textes fournis. Ainsi, par exemple, pour la première partie, le texte initial de l'article devra accompagner chaque texte sur les barèmes attribuées aux zones des différentes localités et terrains. Nous devrons faire de même pour chaque définition sur les différentes catégories ainsi que pour les tableaux croisés. Ainsi les attributs (en se basant sur les termes mis en chocolate dans la sous-section [configuration_des_deux_décrets](#configuration-bareme)) suivants seront pris en compte, en plus de ceux du premier tableau sur les attributs d'un article (voir section [attributs](#attributs)), au niveau des différentes versions de l'article premier des deux décrets:
-
-
-| Noms des Attributs                              | Type                           | Espaces de Valeurs (¥), Expression Régulière (£) ou Format de date (€) | Peut être nulle (Vrai ou Faux)                    |
-| :----------------------------------------------:|:------------------------------:|:---------------------------------------------------:|:-----------------------------------------|
-| Type de Terrain                           | Catégorielle                   | {nu, batî} (¥) | Vrai                                      |
-| Région                                | Chaîne de caractères           | [A-Za-z\d]+         (£)                              | Vrai                                      |
-| Ville                                | Chaîne de caractères           | [A-Za-z\d]+           (£)                            | Vrai                                      |
-| Localité(s)                  | Chaîne de caractères           | [A-Za-z\d]+     (£)                                  | Vrai                                      |
-| Catégorie                      | Chaîne de caractères                        |   [A-Z]+\|[\d]+           (£)                        | Vrai                                      |
-| Type d'habitation                             | Catégorielle           | {Immeubles Collectifs, Maisons Individuelles, Cours Aménagées, Clôtures} (¥)                                      | Vrai                                      |
-| Article sur prix loyers                   | Booléen                      | {Vrai, Faux}  (¥)         | Faux |
-
-
-### Préparation du papier pour extraction 🪵
-
-Les textes fonciers et domaniaux s'étalent sur 527 pages. Vu le nombre important de textes et une information présentée de manière variée au fur et à mesure que l'on avance dans la lecture du document, nous devons effectuer une analyse (voir un traitement) préliminaire profonde des différentes parties avant de plonger dans l'étape inhérente à l'extraction des articles et de leurs correspondants attributs.
-
-Nous effectuerons d'abord les traitements préliminaires suivants:
-
-- Séparer le document, suivant la partie Sommaire Général, en 8 parties (dans différents fichiers pdf et de manière manuelle):
-    - PREFACE
-    - AVANT-PROPOS
-    - Sommaire
-    - Première partie: Domaine national
-    - Deuxième partie : Domaine de l’Etat
-    - Troisième partie : Domaine des particuliers
-    - Quatrième partie : Expropriation pour cause d’utilité publique
-    - Annexes
-    - TABLE DES MATIERES
-- Séparer la partie Sommaire entre:
-    - Sommaire de la Première partie: Domaine national
-    - Sommaire de la Deuxième partie : Domaine de l’Etat
-    - Sommaire de la Troisième partie : Domaine des particuliers
-    - Sommaire de la Quatrième partie : Expropriation pour cause d’utilité publique
-    - Sommaire des Annexes
-- Classer sous forme de dossiers les sous-parties identifiées dans chaque sommaire. C'est-à-dire l'identification des contenus des lois, décrets et arrêtés et leur organisation sous forme de dossiers après leurs mis en liens. Nous obtenons l'arbre de dossier suivant:
-
-
-
+- **Organize identified sub-sections into folders**: This involves identifying the content of laws, decrees, and orders, then structuring them into
 
 ```python
 from directory_tree import display_tree
 
-display_tree("Lois_Decrets_Arretes")
+display_tree("Laws_Decrees_Orders")
 ```
 
-    Lois_Decrets_Arretes/
-    ├── annexe/
-    │   ├── Arrêté n°8871-MEF-MDB-DGID du 25 octobre 2004.docx
-    │   ├── Déclaration Universelle des Droits de l’Homme et du Citoyen.docx
-    │   ├── Décret n°2007-868 du 7 août 2007.docx
-    │   ├── Décret n°2012-396 du 27 mars 2012.docx
-    │   ├── Loi n°2001-03 du 22 janvier 2001.docx
-    │   ├── Loi n°2004-16 du 4 juin 2004.docx
-    │   ├── Loi n°2005-01 du 11 janvier 2005.docx
-    │   ├── Loi n°2008-43 du 20 août 2008/
-    │   │   ├── Décret n°2009-1450 du 30 décembre 2009.docx
-    │   │   ├── Décret n°96-1138 du 27 décembre 1996.docx
-    │   │   └── Loi n°2008-43 du 20 août 2008.docx
-    │   ├── Loi n°2009-23 du 08 juillet 2009/
-    │   │   ├── Décret n°2010-99 du 27 janvier 2010.docx
-    │   │   └── Loi n°2009-23 du 08 juillet 2009.docx
-    │   ├── Loi n°96-06 du 22 Mars 1996.docx
-    │   └── Loi n°96-07 du 22 Mars 1996/
-    │       ├── Décret n°96-1130 du 27 décembre 1996.docx
-    │       └── Loi n°96-07 du 22 Mars 1996.docx
-    ├── etat/
-    │   ├── Décret n°2010-399 du 23 mars 2010.docx
-    │   ├── Décret n°2010-400 du 23 mars 2010.docx
-    │   ├── Loi n°74-20 du 24 juin 1974/
-    │   │   ├── Décret n°2010-1445 du 4 novembre 2010.docx
-    │   │   ├── Décret n°74-718 du 19 juillet 1974.docx
-    │   │   └── Loi n°74-20 du 24 juin 1974.docx
-    │   ├── Loi n°76-66 du 2 Juillet 1976/
-    │   │   ├── Décret n°81-557 du 21 Mai 1981.docx
-    │   │   └── Loi n°76-66 du 2 Juillet 1976.docx
-    │   ├── Loi n°87-11 du 24 Février 1987/
-    │   │   ├── Décret n°87-271 du 03 Mars 1987.docx
-    │   │   ├── Décret n°88-826 du 14 Juin 1988.docx
-    │   │   └── Loi n°87-11 du 24 Février 1987.docx
-    │   ├── Loi n°94-64 du 22 Août 1994/
-    │   │   ├── Décret n°95-737 du 31 Juillet 1995.docx
-    │   │   └── Loi n°94-64 du 22 Août 1994.docx
-    │   └── Loi n°95-12 du 07 Avril 1995.docx
+    Laws_Decrees_Orders/
+    ├── appendices/
+    │   ├── Decree n°8871-MEF-MDB-DGID of 25 October 2004.docx
+    │   ├── Universal Declaration of Human and Citizen Rights.docx
+    │   ├── Decree n°2007-868 of 7 August 2007.docx
+    │   ├── Decree n°2012-396 of 27 March 2012.docx
+    │   ├── Law n°2001-03 of 22 January 2001.docx
+    │   ├── Law n°2004-16 of 4 June 2004.docx
+    │   ├── Law n°2005-01 of 11 January 2005.docx
+    │   ├── Law n°2008-43 of 20 August 2008/
+    │   │   ├── Decree n°2009-1450 of 30 December 2009.docx
+    │   │   ├── Decree n°96-1138 of 27 December 1996.docx
+    │   │   └── Law n°2008-43 of 20 August 2008.docx
+    │   ├── Law n°2009-23 of 08 July 2009/
+    │   │   ├── Decree n°2010-99 of 27 January 2010.docx
+    │   │   └── Law n°2009-23 of 08 July 2009.docx
+    │   ├── Law n°96-06 of 22 March 1996.docx
+    │   └── Law n°96-07 of 22 March 1996/
+    │       ├── Decree n°96-1130 of 27 December 1996.docx
+    │       └── Law n°96-07 of 22 March 1996.docx
+    ├── state/
+    │   ├── Decree n°2010-399 of 23 March 2010.docx
+    │   ├── Decree n°2010-400 of 23 March 2010.docx
+    │   ├── Law n°74-20 of 24 June 1974/
+    │   │   ├── Decree n°2010-1445 of 4 November 2010.docx
+    │   │   ├── Decree n°74-718 of 19 July 1974.docx
+    │   │   └── Law n°74-20 of 24 June 1974.docx
+    │   ├── Law n°76-66 of 2 July 1976/
+    │   │   ├── Decree n°81-557 of 21 May 1981.docx
+    │   │   └── Law n°76-66 of 2 July 1976.docx
+    │   ├── Law n°87-11 of 24 February 1987/
+    │   │   ├── Decree n°87-271 of 03 March 1987.docx
+    │   │   ├── Decree n°88-826 of 14 June 1988.docx
+    │   │   └── Law n°87-11 of 24 February 1987.docx
+    │   ├── Law n°94-64 of 22 August 1994/
+    │   │   ├── Decree n°95-737 of 31 July 1995.docx
+    │   │   └── Law n°94-64 of 22 August 1994.docx
+    │   └── Law n°95-12 of 07 April 1995.docx
     ├── expropriation/
-    │   └── Loi n°76-67 du 02 Juillet 1976/
-    │       ├── Décret n°77-563 du 03 Juillet 1977.docx
-    │       └── Loi n°76-67 du 02 Juillet 1976.docx
+    │   └── Law n°76-67 of 02 July 1976/
+    │       ├── Decree n°77-563 of 03 July 1977.docx
+    │       └── Law n°76-67 of 02 July 1976.docx
     ├── national/
-    │   ├── Loi n°64-46 du 17 Juin 1964/
-    │   │   ├── Décret n°64-573 du 30 Juillet 1964.docx
-    │   │   ├── Décret n°64-574 du 30 juillet 1964.docx
-    │   │   ├── Décret n°66-858 du 07 Novembre 1966.docx
-    │   │   ├── Décret n°72-1288 du 27 Octobre 1972.docx
-    │   │   ├── Décret n°80-268 du 10 Mars 1980.docx
-    │   │   ├── Décret n°87-720 du 04 juin 1987.docx
-    │   │   └── Loi n°64-46 du 17 Juin 1964.docx
-    │   └── Loi n°98-03 du 08 janvier 1998/
-    │       ├── Décret n°96-572 du 09 juillet 1996.docx
-    │       ├── Décret n°98-164 du 20 Février 1998.docx
-    │       └── Loi n°98-03 du 08 janvier 1998.docx
-    └── particulier/
-        ├── Décret n°2010-439 du 6 avril 2010.docx
-        ├── Loi n°2011-06 du 30 mars 2011/
-        │   ├── Décret n°2012-1270 du 08 novembre 2012.docx
-        │   └── Loi n°2011-06 du 30 mars 2011.docx
-        ├── Loi n°2011-07 du 30 mars 2011.docx
-        ├── Loi n°66-70 du 13 Juillet 1966.docx
-        ├── Loi n°77-85 du 10 Août 1977/
-        │   ├── Décret n°77-754 du 20 Septembre 1977.docx
-        │   └── Loi n°77-85 du 10 Août 1977.docx
-        └── Loi n°88-04 du 16 juin 1988/
-            ├── Décret n°2002-160 du 15 février 2002.docx
-            └── Loi n°88-04 du 16 juin 1988.docx
-    
+    │   ├── Law n°64-46 of 17 June 1964/
+    │   │   ├── Decree n°64-573 of 30 July 1964.docx
+    │   │   ├── Decree n°64-574 of 30 July 1964.docx
+    │   │   ├── Decree n°66-858 of 07 November 1966.docx
+    │   │   ├── Decree n°72-1288 of 27 October 1972.docx
+    │   │   ├── Decree n°80-268 of 10 March 1980.docx
+    │   │   ├── Decree n°87-720 of 04 June 1987.docx
+    │   │   └── Law n°64-46 of 17 June 1964.docx
+    │   └── Law n°98-03 of 08 January 1998/
+    │       ├── Decree n°96-572 of 09 July 1996.docx
+    │       ├── Decree n°98-164 of 20 February 1998.docx
+    │       └── Law n°98-03 of 08 January 1998.docx
+    └── private/
+        ├── Decree n°2010-439 of 6 April 2010.docx
+        ├── Law n°2011-06 of 30 March 2011/
+        │   ├── Decree n°2012-1270 of 08 November 2012.docx
+        │   └── Law n°2011-06 of 30 March 2011.docx
+        ├── Law n°2011-07 of 30 March 2011.docx
+        ├── Law n°66-70 of 13 July 1966.docx
+        ├── Law n°77-85 of 10 August 1977/
+        │   ├── Decree n°77-754 of 20 September 1977.docx
+        │   └── Law n°77-85 of 10 August 1977.docx
+        └── Law n°88-04 of 16 June 1988/
+            ├── Decree n°2002-160 of 15 February 2002.docx
+            └── Law n°88-04 of 16 June 1988.docx
 
-- Elimination des parties inutiles dans les lois, décrets et arrêtés pour de garder que les sous-divisions énumérées dans la partie [suppléments](#supplement). 
+      
+- **Removal of unnecessary sections** in laws, decrees, and ministerial orders to retain only the subdivisions listed in the [supplements](#supplement) section.  
+
