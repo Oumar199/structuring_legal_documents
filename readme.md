@@ -270,7 +270,7 @@ display_tree("Laws_Decrees_Orders")
 
 ## Citation
 ```bibtex
-@misc{ok2025Structuringlegaldocument,
+@misc{ok2025structuringlegaldocuments,
   title={Structuring Senegalese Legal Texts with Graphs and LLMs},
   author={Oumar Kane},
   howpublished={https://github.com/Oumar199/structuring_legal_documents},
