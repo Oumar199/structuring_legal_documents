@@ -1,5 +1,5 @@
-# Organisation du papier sur les droits Foncier et Domanial (📜)
-----------------------
+## Organisation du papier sur les droits Foncier et Domanial (📜)
+
 
 ### Introduction : {#intro}
 
@@ -129,7 +129,7 @@ Les mots mis en chocolat désignent les termes définissant un article sur le dr
 | Nom de la subdivision Chapitre                                    | Chaîne de caractères           | [A-Za-z\d]*             (£)                            | Vrai                                      |
 | Nom de la subdivision Section                                     | Chaîne de caractères           | [A-Za-z\d]*                  (£)                       | Vrai                                      |
 | Nom de la subdivision Sous-Section                                | Chaîne de caractères           | [A-Za-z\d]*                  (£)                       | Vrai                                      |
-| Section d'application de l'article              | Catégorielle                   | {Réglementaire, Législative}  (¥)                   | Vrai                                      |
+| Type d'article              | Catégorielle                   | {Réglementaire, Législative}  (¥)                   | Vrai                                      |
 | Contenu de l'article          | Chaîne de caractères                      | .*        (£)            |Faux|
 
 
