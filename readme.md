@@ -266,3 +266,14 @@ display_tree("Laws_Decrees_Orders")
       
 - **Removal of unnecessary sections** in laws, decrees, and ministerial orders to retain only the subdivisions listed in the [supplements](#supplement) section.  
 
+
+
+## Citation
+```bibtex
+@misc{ok2025Structuringlegaldocument,
+  title={Structuring Senegalese Legal Texts with Graphs and LLMs},
+  author={Oumar Kane},
+  howpublished={https://github.com/Oumar199/structuring_legal_documents},
+  year={2025}
+}
+```
